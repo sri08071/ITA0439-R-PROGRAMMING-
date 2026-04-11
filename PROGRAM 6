@@ -1,0 +1,11 @@
+v <- c(1, 2, 3)
+
+m <- matrix(c(1,2,3,4), nrow=2)
+
+f <- function(x) x+1
+
+my_list <- list(v, m, f)
+
+print(my_list)
+
+my_list
