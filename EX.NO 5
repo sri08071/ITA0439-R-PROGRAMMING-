@@ -1,0 +1,8 @@
+set.seed(123)
+
+height <- c(150, 160, 155, 170, 165)
+group <- sample(c("A", "B", "C"), 5, replace = TRUE)
+
+women_data <- data.frame(height, group)
+
+women_data
